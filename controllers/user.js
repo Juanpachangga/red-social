@@ -11,7 +11,7 @@ const Publication = require('../models/publication');
 const jwt = require('../services/jwt');
 const { exists } = require('../models/user');
 
-//Metodos de prueba
+//Metodos de pruebas
 function home(req, res) {
     res.status(200).send({
         message: 'Hola mundo desde el servidor de NodeJS'
